@@ -1,6 +1,6 @@
 #include "caicMatrix.h"
 
-int addMatrix(int A[ROWS][COLS], int B[ROWS][COLS], int C[ROWS][COLS]){
+void addMatrix(int A[ROWS][COLS], int B[ROWS][COLS], int C[ROWS][COLS]){
 	
 	int i;
 	int j;
@@ -10,7 +10,7 @@ int addMatrix(int A[ROWS][COLS], int B[ROWS][COLS], int C[ROWS][COLS]){
 			C[i][j] = A[i][j] + B[i][j];
 		}
 	}
-	return 1;
+	return ;
 }
 
 
